@@ -1,0 +1,29 @@
+{
+  "name": "mcp-ts-template-fastmcp",
+  "version": "0.1.0",
+  "description": "FastMCP project template for create-mcp-ts.",
+  "author": "stephencme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephencme/mcp-ts-template-fastmcp"
+  },
+  "type": "module",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "dev": "mcp-scripts dev",
+    "build": "mcp-scripts build",
+    "setup": "mcp-scripts setup",
+    "eject": "mcp-scripts eject"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "fastmcp": "^1.22.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "mcp-scripts": "^0.3.3",
+    "typescript": "^5.8.2"
+  }
+}
